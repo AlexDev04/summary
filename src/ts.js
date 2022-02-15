@@ -5,8 +5,12 @@ class TS extends Component {
         return(
             <div>
                 <h2 className="header">
-                    TS
+                    TypeScript
                 </h2>
+
+                <div className="section">
+                    <h3>Этот раздел находится в разработке (изучении)!</h3>
+                </div>
             </div>
         );
     }
