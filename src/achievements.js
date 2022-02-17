@@ -7,6 +7,7 @@ class Achievements extends Component {
                 <h2 className="header">
                     Достижения
                 </h2>
+
             </div>
         );
     }
