@@ -3,18 +3,51 @@ body {
    font-family: sans-serif;
 }
 
-#main-header {
-   text-align: center;
-}
-
-.header {
-
-}
-
 .section {
    margin: 10px;
 }
 
+#main-header {
+    text-align: center;
+ }
+
+/* Secondary */
+.header {
+
+}
+
+#nav-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center
+}
+
+.nav-item {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   width: 10em;
+   height: 1.75em;
+   background-color: silver;
+   margin: 3px;
+   padding: 5px;
+   text-decoration: none
+}
+
+.project-div {
+   display: flex;
+   flex-direction: column
+}
+/* High priority */
 .active {
    background-color: chocolate;
 }
+
+
+
+
+
+
+

@@ -25,20 +25,20 @@ class App extends Component {
                 <HashRouter>
                     <div>
                         <h1 id="main-header">Мои навыки веб-разработки</h1>
-                        <ul>
-                            <li><NavLink to="/">Главная</NavLink></li>
-                            <li><NavLink to="/html">HTML</NavLink></li>
-                            <li><NavLink to="/css">CSS</NavLink></li>
-                            <li><NavLink to="/js">JavaScript</NavLink></li>
-                            <li><NavLink to="/react">React.js</NavLink></li>
-                            <li><NavLink to="/ts">TypeScript</NavLink></li>
-                            <li><NavLink to="/node">Node.js</NavLink></li>
-                            <li><NavLink to="/php">PHP</NavLink></li>
-                            <li><NavLink to="/extra">Дополнительные навыки</NavLink></li>
-                            <li><NavLink to="/projects">Проекты</NavLink></li>
-                            <li><NavLink to="achievements">Достижения</NavLink></li>
-                            <li><NavLink to="/plans">Планы</NavLink></li>
-                        </ul>
+                        <div id="nav-container">
+                                <NavLink className="nav-item" to="/">Главная</NavLink>
+                                <NavLink className="nav-item" to="/html">HTML</NavLink>
+                                <NavLink className="nav-item" to="/css">CSS</NavLink>
+                                <NavLink className="nav-item" to="/js">JavaScript</NavLink>
+                                <NavLink className="nav-item" to="/react">React.js</NavLink>
+                                <NavLink className="nav-item" to="/ts">TypeScript</NavLink>
+                                <NavLink className="nav-item" to="/node">Node.js</NavLink>
+                                <NavLink className="nav-item" to="/php">PHP</NavLink>
+                                <NavLink className="nav-item" to="/extra">Доп. навыки</NavLink>
+                                <NavLink className="nav-item" to="/projects">Проекты</NavLink>
+                                <NavLink className="nav-item" to="achievements">Достижения</NavLink>
+                                <NavLink className="nav-item" to="/plans">Планы</NavLink>
+                        </div>
                         <div className="container">
                             <Routes>
                                 <Route path="/" element={<Home/>}/>
