@@ -36,13 +36,42 @@ body {
    text-decoration: none
 }
 
-.project-div {
+
+figure img {
+   border: solid 1px;
+   border-radius: 5px;
+   width: 450px;
+   height: 200px;
+   margin: 10px 0;
+
+}
+
+.imgs-div {
    display: flex;
-   flex-direction: column
+   margin: 10px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-content: space-around;
+}
+
+figure {
+
+}
+
+figcaption {
+   text-align: center;
+}
+
+.achieve {
+   text-align: center;
 }
 /* High priority */
 .active {
    background-color: chocolate;
+}
+#projects-div {
+   display: flex;
+   flex-direction: column-reverse;
 }
 
 

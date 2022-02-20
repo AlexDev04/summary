@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Achieve from "./Achieve";
 
 class Achievements extends Component {
     render() {
@@ -7,7 +8,7 @@ class Achievements extends Component {
                 <h2 className="header">
                     Достижения
                 </h2>
-
+                <Achieve img="">Сертификат</Achieve>
             </div>
         );
     }

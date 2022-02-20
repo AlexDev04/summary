@@ -6,7 +6,10 @@ class Project extends Component {
             <div className="project-div">
                 <h3>{this.props.name}</h3>
                 <figure>
-                    <img src={this.props.img}></img>
+                    <div className="imgs-div">
+                        <img src={this.props.img}></img>
+                        <img src={this.props.img2}></img>
+                    </div>
                     <figcaption>{this.props.children}</figcaption>
                 </figure>
             </div>
