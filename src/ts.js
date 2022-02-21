@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Warning from "./Warning";
 
 class TS extends Component {
     render() {
@@ -7,10 +8,7 @@ class TS extends Component {
                 <h2 className="header">
                     TypeScript
                 </h2>
-
-                <div className="section">
-                    <h3>Этот раздел находится в разработке (изучении)!</h3>
-                </div>
+                <Warning>Данная страница находится в разработке</Warning>
             </div>
         );
     }

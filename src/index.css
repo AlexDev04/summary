@@ -65,6 +65,20 @@ figcaption {
 .achieve {
    text-align: center;
 }
+
+.warning {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: larger;
+}
+
+.warning-img {
+   width: 30px;
+   margin-bottom: 3px;
+}
+
 /* High priority */
 .active {
    background-color: chocolate;
