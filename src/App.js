@@ -23,7 +23,7 @@ class App extends Component {
         return(
             <>
                 <HashRouter>
-                    <div>
+                    <div id="in-content">
                         <h1 id="main-header">Мои навыки веб-разработки</h1>
                         <div id="nav-container">
                                 <NavLink className="nav-item" to="/">Главная</NavLink>

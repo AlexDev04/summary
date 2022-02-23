@@ -1,8 +1,10 @@
 /* Main */
 body {
    font-family: sans-serif;
-   background-color: #2AABE4;
+   background-color:  #1F2833;
    margin: 0;
+   color: white;
+
 }
 
 .section {
@@ -10,12 +12,18 @@ body {
 }
 
 #main-header {
-    text-align: center;
+   text-align: center;
+   color: #66FCF1;
+   font-size: 50px;
  }
+
+#in-content {
+   padding: 10px;
+}
 
 /* Secondary */
 .header {
-
+   text-align: center;
 }
 
 #nav-container {
@@ -23,6 +31,7 @@ body {
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+
 }
 
 .nav-item {
@@ -32,14 +41,19 @@ body {
    align-items: center;
    flex: 1 1 auto;
    min-width: 100px;
-   width: 200px;
+   width: 250px;
    max-width: 300px;
    padding: 5px;
-   text-decoration: none
+   text-decoration: none;
+   border: solid #1F2833;
 }
 
 .nav-item:hover {
-   background-color: #FFCD24;
+   background-color: #45A29E;
+   border: solid #45A29E;
+}
+.nav-item:visited {
+   color: white;
 }
 
 figure img {
@@ -57,10 +71,6 @@ figure img {
    justify-content: space-around;
    flex-wrap: wrap;
    align-content: space-around;
-}
-
-figure {
-
 }
 
 figcaption {
@@ -84,19 +94,35 @@ figcaption {
    margin-bottom: 3px;
 }
 
-#footer {
-   background-color: darkgray;
+
+
+p {
+   color: #C5C6C7;
+   text-align: justify;
+}
+
+.section ul {
+   color: #C5C6C7;
+}
+
+h3{
+   margin-left: 1%;
 }
 
 /* High priority */
 .nav-item.active {
-   background-color: chocolate;
+   border: solid #66FCF1;
 }
+
 #projects-div {
    display: flex;
    flex-direction: column-reverse;
 }
 
+#footer {
+   background-color: #45A29E;
+   color: white;
+}
 
 
 
