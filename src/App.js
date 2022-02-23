@@ -58,10 +58,15 @@ class App extends Component {
                     </div>
                 </HashRouter>
                 <div id="footer">
-                    Footer
+                    <h3>Контакты:</h3>
+                    <ul>
+                        <li>web.yakovlev04@yandex.ru</li>
+                        <li>+7-911-152-40-72</li>
+                    </ul>
+                    <a>Instagram</a>
+                    <a>GitHub</a>
                 </div>
             </>
-
         );
     }
 }

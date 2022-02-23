@@ -1,6 +1,8 @@
 /* Main */
 body {
    font-family: sans-serif;
+   background-color: lavender;
+   padding: 0;
 }
 
 .section {
@@ -19,8 +21,8 @@ body {
 #nav-container {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center
+   justify-content: center;
+   align-items: center;
 }
 
 .nav-item {
@@ -28,8 +30,10 @@ body {
    justify-content: center;
    text-align: center;
    align-items: center;
-   width: 10em;
-   height: 1.75em;
+   flex: 1 1 auto;
+   min-width: 100px;
+   width: 200px;
+   max-width: 300px;
    background-color: silver;
    margin: 3px;
    padding: 5px;
@@ -77,6 +81,10 @@ figcaption {
 .warning-img {
    width: 30px;
    margin-bottom: 3px;
+}
+
+#footer {
+   background-color: darkgray;
 }
 
 /* High priority */

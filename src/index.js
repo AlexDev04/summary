@@ -9,8 +9,6 @@ import "./index.css";
 var destination = document.getElementById('content');
 
 ReactDOM.render(
-    <>
-        <App/>
-    </>,
+        <App/>,
     destination
 )
