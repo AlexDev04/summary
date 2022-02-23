@@ -1,8 +1,8 @@
 /* Main */
 body {
    font-family: sans-serif;
-   background-color: lavender;
-   padding: 0;
+   background-color: #2AABE4;
+   margin: 0;
 }
 
 .section {
@@ -34,12 +34,13 @@ body {
    min-width: 100px;
    width: 200px;
    max-width: 300px;
-   background-color: silver;
-   margin: 3px;
    padding: 5px;
    text-decoration: none
 }
 
+.nav-item:hover {
+   background-color: #FFCD24;
+}
 
 figure img {
    border: solid 1px;
@@ -88,7 +89,7 @@ figcaption {
 }
 
 /* High priority */
-.active {
+.nav-item.active {
    background-color: chocolate;
 }
 #projects-div {
