@@ -60,11 +60,13 @@ class App extends Component {
                 <div id="footer">
                     <h3>Контакты:</h3>
                     <ul>
-                        <li>web.yakovlev04@yandex.ru</li>
-                        <li>+7-911-152-40-72</li>
+                        <li><a href="mailto:web.yakovlev04@yandex.ru">web.yakovlev04@yandex.ru</a></li>
+                        <li><a href="tel:+7-911-152-40-72">+7-911-152-40-72</a></li>
                     </ul>
-                    <a>Instagram</a>
-                    <a>GitHub</a>
+                    <div id="contact-links">
+                        <a href="https://www.instagram.com/alexdev04/"><img src="ig-logo.png"/></a>
+                        <a href="https://github.com/AlexDev04"><img src="github-logo.png"/></a>
+                    </div>
                 </div>
             </>
         );
